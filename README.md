@@ -467,7 +467,7 @@ Failing scenarios:
   at process._tickDomainCallback (node.js:463:13)
 ```
 
-Don't you think it's painful to scroll to find find what caused the error?
+<p align="center"><a href="http://imgur.com/rMkyO4g"><img src="http://i.imgur.com/rMkyO4g.jpg" title="source: imgur.com" /></a></p>
 
 <br>
 
