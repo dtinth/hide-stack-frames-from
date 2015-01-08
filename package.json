@@ -1,0 +1,26 @@
+{
+  "name": "hide-stack-frames-from",
+  "version": "1.0.0",
+  "description": "Hides stack frames from arbitrary node package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dtinth/hide-stack-frames-from.git"
+  },
+  "keywords": [
+    "stack",
+    "trace"
+  ],
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtinth/hide-stack-frames-from/issues"
+  },
+  "homepage": "https://github.com/dtinth/hide-stack-frames-from",
+  "dependencies": {
+    "stack-chain": "^1.3.0"
+  }
+}
