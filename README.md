@@ -6,8 +6,6 @@ Eliminates stack trace noise by hiding stack frames from any node module.
 Why? I've been using [cucumber-js](https://github.com/cucumber/cucumber-js/issues/157) and whenever an error occur,
 this happens.
 
-(::) failed steps (::)
-
 ```
 AssertionError: expected 6 to equal 3
   at Object.<anonymous> (/Users/dtinth/Bemuse/bms-js/features/step_definitions/bms_steps.js:33:49)
@@ -471,11 +469,11 @@ Failing scenarios:
 
 Don't you think it's painful to scroll to find find what caused the error?
 
-<br><br>
+<br>
 
 <h3 align="center"><tt>require('hide-stack-frames-from')('cucumber')</tt></h3>
 
-<br>
+<br><br>
 
 ```
 AssertionError: expected 6 to equal 3
@@ -514,11 +512,11 @@ Failing scenarios:
   at process._tickDomainCallback (node.js:463:13)
 ```
 
-<br><br>
+<br>
 
 <h4 align="center"><tt>require('hide-stack-frames-from')('cucumber', 'bluebird')</tt></h4>
 
-<br>
+<br><br>
 ```
 AssertionError: expected 6 to equal 3
   at Object.<anonymous> (/Users/dtinth/Bemuse/bms-js/features/step_definitions/bms_steps.js:33:49)
