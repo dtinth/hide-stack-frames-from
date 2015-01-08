@@ -538,10 +538,11 @@ Failing scenarios:
   at process._tickDomainCallback (node.js:463:13)
 ```
 
-
-Looks better?
-
 <br>
+
+<h4 align="center">Looks better?</h4>
+
+<h2 align="center">What are you waiting for?</h2>
 
 <h3 align="center"><tt>npm i --save-dev hide-stack-frames-from</tt></h3>
 
