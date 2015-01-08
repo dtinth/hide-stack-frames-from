@@ -471,6 +471,10 @@ Failing scenarios:
 
 <br>
 
+<h4 align="center">Isn't it painful?</h4>
+
+<h2 align="center">Do this:</h2>
+
 <h3 align="center"><tt>require('hide-stack-frames-from')('cucumber')</tt></h3>
 
 <br><br>
@@ -513,6 +517,10 @@ Failing scenarios:
 ```
 
 <br>
+
+<h4 align="center">You can hide from multiple modules</h4>
+
+<h2 align="center">Like this:</h2>
 
 <h4 align="center"><tt>require('hide-stack-frames-from')('cucumber', 'bluebird')</tt></h4>
 
