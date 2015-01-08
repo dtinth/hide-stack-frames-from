@@ -471,8 +471,11 @@ Failing scenarios:
 
 Don't you think it's painful to scroll to find find what caused the error?
 
+<br><br>
 
-<h1 align="center"><tt>require('hide-stack-frames-from')('cucumber')</tt></h1>
+<h3 align="center"><tt>require('hide-stack-frames-from')('cucumber')</tt></h3>
+
+<br>
 
 ```
 AssertionError: expected 6 to equal 3
@@ -511,10 +514,11 @@ Failing scenarios:
   at process._tickDomainCallback (node.js:463:13)
 ```
 
+<br><br>
 
-<h1 align="center"><tt>require('hide-stack-frames-from')('cucumber', 'bluebird')</tt></h1>
+<h4 align="center"><tt>require('hide-stack-frames-from')('cucumber', 'bluebird')</tt></h4>
 
-
+<br>
 ```
 AssertionError: expected 6 to equal 3
   at Object.<anonymous> (/Users/dtinth/Bemuse/bms-js/features/step_definitions/bms_steps.js:33:49)
@@ -539,5 +543,8 @@ Failing scenarios:
 
 Looks better?
 
+<br>
 
-<h1 align="center"><tt>npm i --save-dev hide-stack-frames-from</tt></h1>
+<h3 align="center"><tt>npm i --save-dev hide-stack-frames-from</tt></h3>
+
+<br><br><br>
